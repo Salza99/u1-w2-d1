@@ -22,8 +22,8 @@ REGOLE
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-let my_Name = "Davide";
-/*console.log(my_Name)*/
+let name = "Davide";
+/*console.log(name)*/
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -46,7 +46,7 @@ let x = 12;
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-my_Name = "Salzani";
+name = "Salzani";
 window.alert(my_Name);
 //console.log(my_Name);
 /*const my_Cnt_Name = "Davide";
@@ -70,4 +70,4 @@ let name2 = "John";
 /*console.log(name1 === name2);
 console.log(name1.toLowerCase === name2.toLowerCase);*/
 window.alert(name1 === name2);
-window.alert(name1.toLowerCase === name2.toLowerCase); // questa applicazione di metodo l'ho cercata su google
+window.alert(name1.toLowerCase() === name2.toLowerCase()); // questa applicazione di metodo l'ho cercata su google
